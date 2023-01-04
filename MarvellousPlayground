@@ -115,12 +115,6 @@ end)
 
 
 
-
-
-
-
-local Section = Tab:NewSection("Being worked on")
-
 local Tab = Window:NewTab("Unlock Gamepass")
 local Section = Tab:NewSection("Unlock gamepass")
 
