@@ -90,12 +90,12 @@ end)
 
 
 
-local Tab = Window:NewTab("Ghostface")
+local Tab = Window:NewTab("Eleven")
 local Section = Tab:NewSection("No cooldowns")
 
 
 
-Section:NewButton("Call spam", "No cooldown", function()
+Section:NewButton("Change to eleven", "No cooldown", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Xxack2xY"))()
 end)
 
@@ -115,15 +115,6 @@ end)
 
 
 
-
-local Tab = Window:NewTab("Eleven")
-local Section = Tab:NewSection("No cooldowns")
-
-
-
-Section:NewButton("", "No cooldown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Xxack2xY"))()
-end)
 
 
 
