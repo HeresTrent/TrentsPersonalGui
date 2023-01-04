@@ -96,21 +96,21 @@ local Section = Tab:NewSection("No cooldowns")
 
 
 Section:NewButton("Change to eleven", "No cooldown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Xxack2xY"))()
+https://raw.githubusercontent.com/HeresTrent/ElevenChange/main/ChangetoJaneEleven
 end)
 
 
 
-Section:NewButton("Change to Ghostface", "No cooldown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/1Vk5vSMt"))()
+Section:NewButton("Arm Break Spam", "No cooldown", function()
+https://raw.githubusercontent.com/HeresTrent/ArmBreak/main/ArmSnap
 end)
 
 
 
 
 
-Section:NewButton("Decoy Spam", "No cooldown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/nPuh6h1E"))()
+Section:NewButton("Burst Wave", "No cooldown", function()
+https://raw.githubusercontent.com/HeresTrent/BurstWave/main/BurstWaveSpam
 end)
 
 
@@ -237,8 +237,13 @@ end)
 
 
 
-local Section = Tab:NewSection("Ghostface (being worked on)")
+local Section = Tab:NewSection("Eleven")
 
+
+
+Section:NewKeybind("Arm break keybind", "No cooldowns", Enum.KeyCode.3, function()
+https://raw.githubusercontent.com/HeresTrent/ArmBreak/main/ArmSnap
+end)
 
 
 
